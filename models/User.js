@@ -22,7 +22,7 @@ const userSchema = new mongoose.Schema(
     father: { type: String, required: true },
     mother: { type: String, required: true },
     place: { type: String, required: true },
-    // uniqueId: { type: String, unique: true }, // Auto-generated
+    uniqueId: { type: String, unique: true }, // Auto-generated
    
    
     createdDate: { type: String }, // store in dd-MM-yyyy format
